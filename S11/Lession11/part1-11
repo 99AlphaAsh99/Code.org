@@ -1,0 +1,72 @@
+for (var count = 0; count < 4; count++) {
+  penColour(colour_random());
+  moveForward(100);
+  turnRight(90);
+}
+
+
+
+penColour(colour_random());
+// draw_a_square
+for (var count = 0; count < 4; count++) {
+  moveForward((50));
+  turnRight(90);
+}
+
+
+
+for (var count2 = 0; count2 < 3; count2++) {
+  // draw_a_square
+  for (var count = 0; count < 4; count++) {
+    moveForward((100));
+    turnRight(90);
+  }
+  turnRight(120);
+}
+
+
+
+penColour('#ff77ff');
+// draw_a_square
+for (var count = 0; count < 4; count++) {
+  moveForward((50));
+  turnRight(90);
+}
+// draw_a_square
+for (var count2 = 0; count2 < 4; count2++) {
+  moveForward((60));
+  turnRight(90);
+}
+// draw_a_square
+for (var count3 = 0; count3 < 4; count3++) {
+  moveForward((70));
+  turnRight(90);
+}
+// draw_a_square
+for (var count4 = 0; count4 < 4; count4++) {
+  moveForward((80));
+  turnRight(90);
+}
+// draw_a_square
+for (var count5 = 0; count5 < 4; count5++) {
+  moveForward((90));
+  turnRight(90);
+}
+ReplayContinue
+
+
+
+
+penColour('#843179');
+for (counter = 50; counter <= 90; counter += 10) {
+  // draw_a_square
+  for (var count = 0; count < 4; count++) {
+    moveForward((counter));
+    turnRight(90);
+  }
+}
+ReplayContinue
+
+
+
+
